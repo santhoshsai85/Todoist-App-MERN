@@ -1,9 +1,7 @@
 const mongoose = require("mongoose");
 
 const connectDb = async () => {
-  await mongoose.connect(
-    "mongodb+srv://santhoshsai:santhoshsai@mongodb.rna13qy.mongodb.net/tododb?retryWrites=true&w=majority"
-  );
+  await mongoose.connect("MONGODB_URL");
 };
 
 
